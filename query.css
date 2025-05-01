@@ -15,9 +15,33 @@
     header {
         flex-direction: column;
         align-items: center;
+        padding: 10px;
     }
     nav ul{
         flex-direction: column;
         align-items: center;
+        gap: 10px;
+    }
+
+
+
+
+    .quote {
+        padding: 20px;
+        width: 100vw;
+    }
+    .quote h1 {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .quote .btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .quote .bubble1 {
+        top: 180px;
+        left: 120px;
+        transform: rotate(25deg);
+        animation: none;
     }
 }
