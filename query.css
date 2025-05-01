@@ -12,12 +12,20 @@
 } */
 
 @media (max-width: 480px) {
+    html {
+        overflow: -moz-scrollbars-vertical; 
+        overflow-y: scroll;
+    }
+    * {
+        max-width: 100vw;
+    }
     header {
         flex-direction: column;
         align-items: center;
         padding: 10px;
     }
     nav ul{
+        display: none;
         flex-direction: column;
         align-items: center;
         gap: 10px;
@@ -29,19 +37,44 @@
     .quote {
         padding: 20px;
         width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .quote h1 {
-        font-size: 25px;
+        font-size: 36px;
         margin-bottom: 30px;
+        text-align: center;
     }
     .quote .btn {
         padding: 10px 20px;
         font-size: 14px;
+        margin: 0 auto;
     }
     .quote .bubble1 {
-        top: 180px;
-        left: 120px;
+        top: 20px;
+        right: -70px;
         transform: rotate(25deg);
         animation: none;
+    }
+
+
+
+    #about_us {
+        padding: 20px;
+    }
+    #about_us .bubble3 {
+        display: none;
+    }
+
+
+    .our_info {
+        display: flex;
+        flex-direction: column;
+    }
+    .pri_focus, 
+    .vision,
+    .our_location{
+        flex-direction: column;
     }
 }
