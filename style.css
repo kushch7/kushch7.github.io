@@ -11,7 +11,7 @@ img {
 body {
     font-family: "Poppins", sans-serif;
     line-height: 1.5rem;
-    overflow-x: hidden;
+    overflow-x: clip;
 }
 
 
@@ -29,7 +29,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 5;
+    z-index: 2;
 }
 nav a {
     color: white;
