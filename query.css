@@ -39,7 +39,7 @@
         background-color: #131416;
         width: 100vw;
         text-align: center;
-        transition: all .3s ease-in-out;
+        transition: all .4s ease-in-out;
         z-index: 10;
     }
     nav ul li{
@@ -106,7 +106,7 @@
         }
     
         50% {
-            transform: rotate(12deg) scale(1.45) translateY(-5px) translateX(-3px);
+            transform: rotate(12deg) scale(1.35) translateY(-5px) translateX(-3px);
         }
     
         100% {
