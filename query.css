@@ -106,7 +106,7 @@
         }
     
         50% {
-            transform: rotate(12deg) scale(2) translateY(-5px) translateX(-8px);
+            transform: rotate(12deg) scale(1.45) translateY(-5px) translateX(-3px);
         }
     
         100% {
