@@ -215,20 +215,6 @@ nav ul {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
     padding-top: 50px;
     background-color: #131416;
@@ -278,8 +264,8 @@ footer .contacts_socials{
 
 
 #copyright {
-    background-color: #13141625;
-    color: white;
+    background-color: #131416;
+    color: rgba(255, 255, 255, 0.479);
     text-align: center;
-    padding: 30px 0;
+    padding: 30px 0;    
 }

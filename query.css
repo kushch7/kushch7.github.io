@@ -116,4 +116,14 @@
     }
 
 
+
+    footer .contacts_socials {
+        flex-direction: column;
+        gap: 30px;
+        padding: 0 30px;
+    }
+    .contacts_block{
+        flex-direction: column;
+        gap: 30px;
+    }
 }
