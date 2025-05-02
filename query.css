@@ -126,4 +126,8 @@
         flex-direction: column;
         gap: 30px;
     }
+    .phones li{
+        color: white;
+        text-decoration: none;
+    }
 }
