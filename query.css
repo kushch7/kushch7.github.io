@@ -117,7 +117,7 @@
     display: none;
   }
   .title {
-    font-size: 36px;
+    font-size: 34px;
     text-align: center;
     margin: 20px 0 30px 0;
   }
@@ -139,6 +139,21 @@
   }
   .card {
     width: 250px;
+  }
+
+  #services {
+    padding: 20px;
+  }
+  .services_container {
+    display: flex;
+    flex-direction: column;
+  }
+  .services_container > div {
+    padding: 40px;
+    padding-top: 180px;
+  }
+  .service1 {
+    height: 100%;
   }
 
   #newsletter {
